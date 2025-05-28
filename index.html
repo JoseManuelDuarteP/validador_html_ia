@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador HTML</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Validador HTML</h1>
+            <p class="description">
+                Sube tu archivo HTML y nuestro validador verificará que cumpla con los estándares web. 
+                Te ayudaremos a identificar y corregir errores de sintaxis, estructura y buenas prácticas.
+            </p>
+        </header>
+        
+        <section>
+            <form class="upload-form" id="uploadForm">
+                <label for="htmlFile" class="file-input-label">
+                    Arrastra tu archivo HTML aquí o haz clic para seleccionarlo
+                </label>
+                
+                <input type="file" id="htmlFile" name="htmlFile" accept=".html" required>
+
+                <p>
+                    <input type="submit" id="submitBtn" value="Validar HTML">
+                </p>
+            </form>
+        </section>
+    </main>
+</body>
+</html> 
